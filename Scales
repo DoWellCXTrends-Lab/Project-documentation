@@ -1,0 +1,11 @@
+Nominal scale - classify and identify objects,events and individuals.  
+  Identification - Strict one to one correspondence between the numbers and objects.
+  Classification - Labels for categories. All objects in the same class treated as equivalent with respect to characteristic represented by        label. All objects in same class have same number, no two class have same number
+    Number in nominal scale do not reflect the amount of characteristic possess by the objects.  The only permissible operation in a nominal       scale is counting
+
+Ordinal scale - Ranking scale, relative position according to certain attributes, not magnitude or difference
+
+Interval scale - to rate the object such that numerically equal distances on the scale represents equal distance in the character being measured.  it includes all characters of nominal and ordinal scales in addition to difference in equal distance
+ex: very strong/strong/moderate/weak/very weak
+
+Ratio scale - includes ratio, also have natural origin (zero point), rations of scale values, characteristics of nominal, ordinal, interval scales
