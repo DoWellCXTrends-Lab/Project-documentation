@@ -1,0 +1,42 @@
+Main Task: Derive the formula for calculating NPS (Net Promoter Score):
+NPS = % of Promoters - % of Detractors
+
+Subtask: Derive the formula for calculating the count of both promoters and detractors.
+
+Step 1: Collecting all possible keywords and categorize them into 3 groups: Promoters, Passive, and Detractors. Also, consider the reviews to extract keywords.
+
+Step 2: Assign values for each group of words to determine the formula to find the count of promoters and detractors.
+
+Step 3: Derive a formula based on the keywords and check it with the raw data to examine how accurate it is.
+
+Step 4: Find errors and finalize the formula for calculating the count of promoters and detractors.
+
+Step 5: Based on the previous steps, derive a formula for NPS using the count of promoters and detractors.
+
+
+After categorizing the keywords into promoters, passives, and detractors, we can assign values as follows: 9 or 10 for promoters, 7 or 8 for passives, and 0 to 6 for detractors. We can then use the equation
+
+ AX+BY+CZ/(X+Y+Z) = 0-10 to determine whether the review corresponds to a promoter, passive, or detractor.
+
+To clarify the equation, let's break it down:
+A represents the value of keywords that stand for 9 or 10 (we need to assign a particular value, either 9 or 10). If we randomly assign 9 or 10 to the keywords, the equation will have more variables.
+X is the count of those keywords in a review for promoters (9 or 10).
+B represents the value of keywords that stand for 7 or 8 (passives).
+Y is the count of those keywords in a review for passives.
+C represents the value of keywords that stand for 0-6 (detractors).
+Z is the count of those keywords in a review for detractors (0-6).
+
+By using this equation, we can determine the numerical value of each review and categorize it into promoters, passives, or detractors. Reviews with values in the range 0-6 will be classified as detractors, those with values in the range 7-8 as passives, and those with values in the range 9-10 as promoters. Consequently, we can count the number of promoters and detractors based on these numerical values obtained from the reviews. 
+For example, consider the following review: "The blender is incredibly powerful and blends fruits and veggies effortlessly, but it tends to be quite noisy during operation, which can be annoying, especially in the mornings."
+
+In this review, we categorize "incredibly" as a keyword for promoters with an assigned value of 10, "effortlessly" as a keyword for passive with an assigned value of 8, and "noisy" and "annoying" as keywords for detractors with an assigned value of 6.
+
+Using the given values:
+A (value for promoters) = 10, x (count of promoters' keywords) = 1
+B (value for passives) = 8, y (count of passive keywords) = 1
+C (value for detractors) = 6, z (count of detractors' keywords) = 2
+
+When substituting these values into our equation, we get:
+(10 x 1) + (8 x 1) + (6 x 2)  / (1+1+2) = 7.5
+
+This means that the review is considered as passive based on the calculated value falling within the passive range (7-8) according to the assigned values.
