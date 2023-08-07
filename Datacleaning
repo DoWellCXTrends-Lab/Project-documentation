@@ -1,0 +1,45 @@
+Here is a 6 step data cleaning process to make sure your data is ready to go. 
+
+    Step 1: Remove irrelevant data
+    Step 2: Deduplicate your data
+    Step 3: Fix structural errors
+    Step 4: Deal with missing data
+    Step 5: Filter out data outliers
+    Step 6: Validate your data
+
+1. Remove irrelevant data
+
+Take a good look at your data and get an idea of what is relevant and what you may not need. Filter out data or observations that aren’t relevant to your downstream needs.
+If you’re doing an analysis of SUV owners, for example, but your data set contains data on Sedan owners, this information is irrelevant to your needs and would only skew your results.
+You should also consider removing things like hashtags, URLs, emojis, HTML tags, etc., unless they are necessarily a part of your analysis. 
+
+2. Deduplicate your data
+
+If you’re collecting data from multiple sources or multiple departments, use scraped data for analysis, or have received multiple survey or client responses, you will often end up with data duplicates. 
+Duplicate records slow down analysis and require more storage.  So they need to be removed for well-balanced results.
+
+3. Fix structural errors
+
+Structural errors include things like misspellings, incongruent naming conventions, improper capitalization, incorrect word use, etc. These can affect analysis because, while they may be obvious to humans, most machine learning applications wouldn’t recognize the mistakes and your analyses would be skewed. 
+For example, if you’re running an analysis on different data sets – one with a ‘women’ column and another with a ‘female’ column, you would have to standardize the title. Similarly things like dates, addresses, phone numbers, etc. need to be standardized, so that computers can understand them.
+
+4. Deal with missing data
+
+Scan your data or run it through a cleaning program to locate missing cells, blank spaces in text, unanswered survey responses, etc. This could be due to incomplete data or human error. You’ll need to determine whether everything connected to this missing data – an entire column or row, a whole survey, etc. – should be completely discarded, individual cells entered manually, or left as is.
+The best course of action to deal with missing data will depend on the analysis you want to do and how you plan to preprocess your data. Sometimes you can even restructure your data, so the missing values won’t affect your analysis.
+
+5. Filter out data outliers
+
+Outliers are data points that fall far outside of the norm and may skew your analysis too far in a certain direction. For example, if you’re averaging a class’s test scores and one student refuses to answer any of the questions, his/her 0% would have a big impact on the overall average. In this case, you should consider deleting this data point, altogether. This may give results that are “actually” much closer to the average.
+However, just because a number is much smaller or larger than the other numbers you’re analyzing, doesn’t mean that the ultimate analysis will be inaccurate. Just because an outlier exists, doesn’t mean that it shouldn’t be considered. You’ll have to consider what kind of analysis you’re running and what effect removing or keeping an outlier will have on your results.
+
+6. Validate your data
+
+Data validation is the final data cleaning technique used to authenticate your data and confirm that it’s high quality, consistent, and properly formatted for downstream processes. 
+Do you have enough data for your needs?Is it uniformly formatted in a design or language that your analysis tools can work with? Does your clean data immediately prove or disprove your theory before analysis?
+Validate that your data is regularly structured and sufficiently clean for your needs. Cross check corresponding data points and make sure nothing is missing or inaccurate.
+
+
+
+
+
