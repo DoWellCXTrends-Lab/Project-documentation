@@ -1,4 +1,5 @@
-Here is a 6 step data cleaning process to make sure your data is ready to go. 
+Data cleaning is the process of preparing raw data for analysis by removing errors, inconsistencies, duplicates, outliers, and missing values.
+The steps used in data cleaning process are:-
 
     Step 1: Remove irrelevant data
     Step 2: Deduplicate your data
@@ -10,13 +11,13 @@ Here is a 6 step data cleaning process to make sure your data is ready to go.
 1. Remove irrelevant data
 
 Take a good look at your data and get an idea of what is relevant and what you may not need. Filter out data or observations that aren’t relevant to your downstream needs.
-If you’re doing an analysis of SUV owners, for example, but your data set contains data on Sedan owners, this information is irrelevant to your needs and would only skew your results.
+If you’re doing an analysis of instant food, for example, but your data set contains data on electronic gadgets, this information is irrelevant to your needs and would only skew your results.
 You should also consider removing things like hashtags, URLs, emojis, HTML tags, etc., unless they are necessarily a part of your analysis. 
 
-2. Deduplicate your data
+2. Remove duplicate data
 
 If you’re collecting data from multiple sources or multiple departments, use scraped data for analysis, or have received multiple survey or client responses, you will often end up with data duplicates. 
-Duplicate records slow down analysis and require more storage.  So they need to be removed for well-balanced results.
+Duplicate records slow down analysis and require more storage.So they need to be removed for well-balanced results.
 
 3. Fix structural errors
 
