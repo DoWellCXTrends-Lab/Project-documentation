@@ -1,17 +1,40 @@
-Usually, we are not able to collect all the data, Therefore we take a sample for the study. After collecting the data it is very important to look at the condition 
-of the data like the orientation of the data,trend of the data etc. Most of the statistical method adopted in any research has some assumptions about the 
-distributions of the data for the test and these assumptions of tests are very important. if the data collected from field are violating the assumptions
-for a particular test then the results we get may not be accurate.
 
-What is Distribution? 
-The distribution of a statistical dataset is the spread of the data which shows all possible values or intervals of the data and how they occur.
+Analyzing the underlying Distribution of Data is one of the most underrated steps when building a model. Understanding the data distributions is crucial for various
+data analysis applications. The knowledge of distribution of data allows you to:
+1.Identify outliers
+2.Identify patterns and trends in the data.
+3.Make predictions and conclude the population from which the data is drawn.
+4.Evaluate the reliability of your findings by accounting for variability in the data.
+5.Choose appropriate statistical tests and models that fit the distribution of your data.
+By understanding the distribution of your data, you can ensure that your results are accurate, reliable, and valid.
 
-A distribution is simply a collection of data, or scores, on a variable.
-Usually, these scores are arranged in order from smallest to largest and then they can be presented graphically.
+It can also serve another function, one that is often overlooked by data scientists- Confirming your data collection systems. 
+If you have ground truth about what your distribution is supposed to look like, checking your collected data distribution can help you identify both data drift and problems
+in your collection systems. Both of these problems can slip under the hood and mess up protocols.Doing an analysis of the Data Distribution collected 
+and comparing it to ground truth can be a great way to confirm that systems are working as they should.
 
-Why are distributions important?
-Sampling distributions are important for statistics because we make inferences about the population parameters based on the sample taken from it.
-Hence distribution is necessary to make inferences about the overall population.
+Common Techniques to Analyze the distribution of data
+1.Histograms
+2.Boxplots
+3.Q-Q plots
+4.Descriptive statistics
+5.Statistical tests
+
+Common mistakes people make when analyzing the distribution of their data
+1.Ignoring outliers
+2.Dropping Outliers
+3.Using the wrong statistical test
+4.Not visualizing the data
+
+Data distribution:
+Data distribution is a mathematical function that describes the probability of different outcomes or values in a dataset. 
+In other words, it tells us how the data points are spread out and how likely it is to observe a particular value.
+There are two main types of data distributions:
+1.Continuous Distributions: These describe the probabilities of all possible values within a continuous range,such as height, weight, or temperature.
+                            In a continuous distribution, there's a probability associated with every point on the number line within the given range.
+2.Discrete Distributions: Describe the probabilities of distinct, separate values, such as the number of heads when flipping a coin or the number of items sold in a store.
+                          In a discrete distribution, the probability is associated with each distinct value, and the values are typically integers.
+
 
 
 
