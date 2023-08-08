@@ -1,6 +1,19 @@
-Usually, we are not able to collect all the data for our study. Therefore we take a sample.This sample is used to make conclusions about the whole dataset.
+Usually, we are not able to collect all the data, Therefore we take a sample for the study. After collecting the data it is very important to look at the condition 
+of the data like the orientation of the data,trend of the data etc. Most of the statistical method adopted in any research has some assumptions about the 
+distributions of the data for the test and these assumptions of tests are very important. if the data collected from field are violating the assumptions
+for a particular test then the results we get may not be accurate.
+
 What is Distribution? 
 The distribution of a statistical dataset is the spread of the data which shows all possible values or intervals of the data and how they occur.
-or
+
 A distribution is simply a collection of data, or scores, on a variable.
 Usually, these scores are arranged in order from smallest to largest and then they can be presented graphically.
+
+Why are distributions important?
+Sampling distributions are important for statistics because we make inferences about the population parameters based on the sample taken from it.
+Hence distribution is necessary to make inferences about the overall population.
+
+
+
+
+
