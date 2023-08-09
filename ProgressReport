@@ -1,0 +1,15 @@
+Scrapy is new topic to me hence it is taking more time to learn than expected
+Mean while working with selenium 
+There are limitations to selenium working on finding the solution to those limitations
+Unable to jump from one page to another
+Getting limited number of reviews
+{'text': 'Better then others', 'title': 'Good', 'location_and_date': 'Reviewed in India on July 16, 2023', 'verified': True, 'rating': ''}
+{'text': 'Thanks', 'title': 'Thanks', 'location_and_date': 'Reviewed in India on July 19, 2023', 'verified': True, 'rating': ''}
+{'text': 'Taste is very good. This feels spicy which is not usually seen in other Maggie brand', 'title': 'Awasome taste', 'location_and_date': 'Reviewed in India on July 25, 2023', 'verified': True, 'rating': ''}
+{'text': 'पैसा वसूल', 'title': 'पैसे के हिसाब से सही है', 'location_and_date': 'Reviewed in India on August 6, 2023', 'verified': True, 'rating': ''}
+{'text': 'Good quality', 'title': 'Best', 'location_and_date': 'Reviewed in India on August 1, 2023', 'verified': True, 'rating': ''}
+{'text': 'Very Good product', 'title': 'Good product', 'location_and_date': 'Reviewed in India on July 24, 2023', 'verified': True, 'rating': ''}
+{'text': 'Good Test', 'title': 'West masla megi', 'location_and_date': 'Reviewed in India on May 31, 2023', 'verified': True, 'rating': ''}
+{'text': 'Very good👍', 'title': 'Very good👍', 'location_and_date': 'Reviewed in India on July 25, 2023', 'verified': True, 'rating': ''}
+{'text': "Not recommended for kids as it's spicier than regular Maggie... kids may not eat it...", 'title': 'Spicy', 'location_and_date': 'Reviewed in India on May 18, 2023', 'verified': True, 'rating': ''}
+{'text': 'Excellent taste', 'title': 'Great product', 'location_and_date': 'Reviewed in India on July 16, 2023', 'verified': True, 'rating': ''}
