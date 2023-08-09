@@ -1,0 +1,41 @@
+import time
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+chrome_driver_path = "path_to_chromedriver.exe"  # Replace with your ChromeDriver path
+asin_list = ['B07JQNB7QG']
+
+# Initialize the ChromeDriver
+
+for asin in asin_list:
+    link = f'https://www.amazon.com/product-reviews/{asin}/'
+    url_list = [link]
+
+    for link in url_list:
+        driver = webdriver.Chrome()
+        driver.get(link)
+        wait = WebDriverWait(driver, 100)
+        review_div = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "#cm_cr-review_list div.review")))
+
+        for review_element in review_div:
+            data = {
+                "text": "".join(element.text for element in review_element.find_elements(By.CSS_SELECTOR, "span[data-hook=review-body]")).strip(),
+                "title": review_element.find_element(By.CSS_SELECTOR, "*[data-hook=review-title]>span").text,
+                "location_and_date": review_element.find_element(By.CSS_SELECTOR, "span[data-hook=review-date]").text,
+                "verified": bool(review_element.find_element(By.CSS_SELECTOR, "span[data-hook=avp-badge]").text),
+                "rating": review_element.find_element(By.CSS_SELECTOR, "*[data-hook*=review-star-rating]").text.split(" out")[0],
+            }
+            print(data)
+
+        next_page = driver.find_element(By.CSS_SELECTOR, ".a-pagination .a-last>a").get_attribute("href")
+        print(next_page)
+        if next_page:
+            url_list.append(next_page)
+            driver.quit()
+        else:
+            break
+
+# Close the ChromeDriver
+driver.quit()
