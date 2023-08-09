@@ -1,3 +1,7 @@
+Created a new branch Review Scraper which contains the code to scrap the consumer lever reviews, name, date and time using Scrapy and scrapeops api
+
+
+
 Scrapy is new topic to me hence it is taking more time to learn than expected
 Mean while working with selenium 
 There are limitations to selenium working on finding the solution to those limitations
