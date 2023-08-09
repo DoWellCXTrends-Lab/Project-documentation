@@ -1,18 +1,29 @@
 Data collection or data gathering is the process of gathering and measuring information on targeted variables in an established system
 How much data do we need for the Project?
-what are the variables?
-At 4 levels
-1)universal
-2)Country/Ecom
-3)Shop
-4)Customer
+Data is collected at Different levels:
+1.	Universe
+2.	Country wise Ecom site
+3.	Shop level product
+4.	Customer in a shop
 
-Sample size
-    -Sample size larger than 30 and less than 500 is appropriate for most research studies.
-    -A minimum sample size of 30 for each subset.
-    -In multivariate research sample size should be preferably 10 times or more as the number of variables in the study.
-    -For simple experimental research with tight control (qualitative research), a sample size of 10-20 is adequate.
-    -95% level of confidence (5% level of significance) is the accepted level in business research
-   - if we know N and SD n = [z2 * p(1-p)] / e2 / 1 + [z2 * p(1-p)] / e2 * N]
-   - if we know SD n=[Z2* p(1-p)]/e2]
-   -Slovin's formula n=N/[1+Ne^2]
+Sampling is the process of selecting a subset of individuals, items, events, or elements from a larger population with the intention of studying and making inferences 
+about the entire population
+•	Define the Population
+•	Determine Sampling Method
+•	Identify Sampling Frame
+•	Determine Sample Size
+
+At Universal level
+	Suppose we are considering instant food as the product then at universal level there will be overall 1,91,00,00,000 results generated in google search,
+if we are taking this as the population size, then this size will vary for different products , Also this results generated will not be random
+
+Sample size:- Roscoe’s (1975) guidelines
+•	Sample size larger than 30 and less than 500 is appropriate for most research studies.
+•	A minimum sample size of 30 for each subset.
+•	In multivariate research sample size should be preferably 10 times or more as the number of variables in the study.
+•	For simple experimental research with tight control (qualitative research), a sample size of 10-20 is adequate.
+•	95% level of confidence (5% level of significance) is the accepted level in business research
+•	if we know N and SD n = [z2 * p(1-p)] / e2 / 1 + [z2 * p(1-p)] / e2 * N]
+•	if we know SD n=[z2* p(1-p)]/e2]
+•	Slovin's formula n=N/[1+Ne^2]
+ 
