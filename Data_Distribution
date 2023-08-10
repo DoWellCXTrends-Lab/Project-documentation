@@ -30,10 +30,23 @@ Data distribution:
 Data distribution is a mathematical function that describes the probability of different outcomes or values in a dataset. 
 In other words, it tells us how the data points are spread out and how likely it is to observe a particular value.
 There are two main types of data distributions:
-1.Continuous Distributions: These describe the probabilities of all possible values within a continuous range,such as height, weight, or temperature.
-                            In a continuous distribution, there's a probability associated with every point on the number line within the given range.
-2.Discrete Distributions: Describe the probabilities of distinct, separate values, such as the number of heads when flipping a coin or the number of items sold in a store.
+1.Discrete Distributions: Describe the probabilities of distinct, separate values, such as the number of heads when flipping a coin or the number of items sold in a store.
                           In a discrete distribution, the probability is associated with each distinct value, and the values are typically integers.
+2.Continuous Distributions: These describe the probabilities of all possible values within a continuous range,such as height, weight, or temperature.
+                            In a continuous distribution, there's a probability associated with every point on the number line within the given range.
+
+Parameters of Data Distributions:
+We use various parameters to describe the shape and characteristics of a data distribution. These parameters help us summarise the data and draw insights from it.
+The most common parameters are:
+1.Mean :it is also known as Average.It represents the central tendency of the data and can give you an idea of the "typical" value in the dataset.
+        However, the mean can be sensitive to extreme values or outliers.
+2.Median:The median is less sensitive to extreme values than the mean, making it a better measure of the central tendency for skewed distributions.
+3.Mode:. The mode can be useful for understanding the most common outcome in a dataset, particularly in discrete distributions.
+4.Variance: Variance measures the dispersion or spread of the values in a dataset.A higher variance indicates a greater spread of values,
+            while a lower variance suggests the values are more tightly clustered around the mean.
+5.Standard Deviation:It's a measure of dispersion that is expressed in the same units as the data, making it easier to interpret than variance.
+                      A higher standard deviation indicates a larger spread of values, while a lower standard deviation indicates that the values are more closely 
+                      grouped around the mean.
 
 
 
