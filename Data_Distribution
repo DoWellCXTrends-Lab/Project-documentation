@@ -48,6 +48,22 @@ The most common parameters are:
                       A higher standard deviation indicates a larger spread of values, while a lower standard deviation indicates that the values are more closely 
                       grouped around the mean.
 
+Common Data Distributions Types:
+Binomial Distribution
+Characteristics:
+The binomial distribution is a discrete distribution that models the number of successes in a fixed number of Bernoulli trials (independent experiments with two possible outcomes: success or failure). 
+The distribution is characterised by the number of trials (n) and the probability of success (p) in each trial.
+
+Poisson Distribution
+Characteristics:
+The Poisson distribution is a discrete distribution that models the number of events occurring in a fixed interval of time or space, given a constant average rate of occurrence (λ). 
+The distribution is characterised by its single parameter, λ, which represents the average number of events in the interval.
+
+Normal Distribution (Gaussian Distribution)
+Characteristics:
+The normal distribution, also known as the Gaussian distribution or bell curve, is a continuous distribution characterised by its symmetrical, bell-shaped curve. 
+The curve is centred around the mean (µ) and is defined by its standard deviation (σ). Approximately 68% of the values fall within one standard deviation of the mean, 
+95% within two standard deviations, and 99.7% within three standard deviations.
 
 
 
