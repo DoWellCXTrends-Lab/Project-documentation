@@ -43,4 +43,40 @@ Validate that your data is regularly structured and sufficiently clean for your 
 
 
 
+cleaning using 50 image data (demo)
+
+Here we have a file named "image(instant_food).csv" containing 667 image data of instant food scraped from google search results.
+The columns in the input file are :-
+
+i) Title_URL :- The url of the image
+
+ii) Title :- Title of the product in the image
+
+iii) Website_name :- The name of the website associated with the image.
+
+iv) Website_url :- The link of the website associated with the image.
+
+Here we take a sample of 50 ranked images from the dataset. We manually look into each image and based on the relevance of each image with our project we give a score within the range 0-100.
+We create a new file "image(instant_food)" having new columns.
+The columns in the data set are: - 
+
+i)	google_rank :- The ranked position of the image in google search results
+
+ii)	image_url :- The url of the image.
+
+iii) title : - Title of the product in the image.
+
+iv) Website_name :- The name of the website associated with the image.
+
+v) Website_url :- The link of the website associated with the image.
+
+vi) score(0-100) :- The score given to the image based on relevance of the image to the project.
+
+vii) our_rank : - The ranked position of the image on the basis of the score given.  
+
+There are 29 data points that are relevant based on the image and the website url and 21 data points that can be termed irrelavant.
+The acceptance level is set to 95%.
+
+
+
 
