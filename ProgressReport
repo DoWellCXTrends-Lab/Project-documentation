@@ -1,3 +1,7 @@
+Scrapeops API is having some issues to collect all the data working on the errors and preparing a new model from scratch
+Also helping gazal with getting the consumer level data as we both are working with scrapeops
+She having some trouble gettng the data, empty data set is being returned every time
+
 I am working on scraping the data from the shop url but facing some error been working on them
 I was using scrapeops API and python Scrapy libraries
 
