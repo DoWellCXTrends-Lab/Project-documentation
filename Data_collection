@@ -44,10 +44,15 @@ After calculations, the determined sample size is 666.
 Step 3: Data Collection 
 Data collection or data gathering is the process of gathering and measuring information on targeted variables in an established system
 
+Data Collection Plan:
 Google search
-Collecting 1000 results from all possible categories (Images ,videos ,maps, News etc…) using the filter : Any time 
+Collecting 1000 results from all possible categories (Images ,videos ,maps, News etc…) 
+using the filter : Any time 
 Data will be collect at every hour
 here each data points consist of both the result(image,link..) and its ranked position
+
+Data collection tools:
+Specialized scraping tools and APIs are used for retrieveing search results.
 
 
  
