@@ -1,3 +1,6 @@
+I am working on scraping the data from the shop url but facing some error been working on them
+I was using scrapeops API and python Scrapy libraries
+
 Yesterday i was working on a road map on how to get to the shop site to get the shop level data
 What data we need, variable
 Gazal is working on the consumer level data from where she can scrap the shop name and shop url which i need to scrap the data
