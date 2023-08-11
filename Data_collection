@@ -1,21 +1,27 @@
 Data collection or data gathering is the process of gathering and measuring information on targeted variables in an established system
-How much data do we need for the Project?
-Data is collected at Different levels:
-1.	Universe
-2.	Country wise Ecom site
-3.	Shop level product
-4.	Customer in a shop
 
-Sampling is the process of selecting a subset of individuals, items, events, or elements from a larger population with the intention of studying and making inferences 
-about the entire population
-•	Define the Population
-•	Determine Sampling Method
-•	Identify Sampling Frame
-•	Determine Sample Size
+Project Title: Customer Experience (CX) Index Study
 
-At Universal level
-	Suppose we are considering instant food as the product then at universal level there will be overall 1,91,00,00,000 results generated in google search,
-if we are taking this as the population size, then this size will vary for different products , Also this results generated will not be random
+Objective: The objective of this project is to conduct a comprehensive Customer Experience (CX) Index study 
+to assess and analyze brand awareness, brand loyalty, customer journey, and Net Promoter Score (NPS) 
+ 
+Design of the project: 50 Products
+                       50 Countries
+                       15 Ecom sites per country
+                       100 Shops per Ecom site per hour
+
+Step 1: Defining the Population
+We define our target population as Infinite
+
+Step 2: Determining Sample Size
+To determine the appropriate sample size, we consider the following factors:
+
+Desired Confidence Level: We aim for a 99% confidence level, 
+meaning that we want to be 99% confident that the results accurately reflect the opinions of our entire population.
+
+Margin of Error: We set a margin of error at ±5%, which indicates the maximum acceptable difference between the sample estimate and the true population parameter.
+
+Population Size: Infinite
 
 Sample size:- Roscoe’s (1975) guidelines
 •	Sample size larger than 30 and less than 500 is appropriate for most research studies.
@@ -26,4 +32,19 @@ Sample size:- Roscoe’s (1975) guidelines
 •	if we know N and SD n = [z2 * p(1-p)] / e2 / 1 + [z2 * p(1-p)] / e2 * N]
 •	if we know SD n=[z2* p(1-p)]/e2]
 •	Slovin's formula n=N/[1+Ne^2]
+
+Using the formula for sample size calculation for a infinite population:
+ n = [Z2* p(1-p)]/e2]
+Where:
+Z = Z-score corresponding to the desired confidence level
+p = Estimated proportion of the population 
+e = Margin of error
+After calculations, the determined sample size is 666.
+
+Step 3: Data Collection and Analysis
+Google search
+Collect 1000 results from all possible categories (Images ,videos ,maps, News etc…) using the filter : Any time 
+here each data points consist of both the result(image,link..) and its ranked position
+
+
  
