@@ -1,3 +1,5 @@
+project title :-  DOWELLCXTRENDS
+
 Data cleaning is the process of preparing raw data for analysis by removing errors, inconsistencies, duplicates, outliers, and missing values.
 The steps used in data cleaning process are:-
 
@@ -74,8 +76,10 @@ vi) score(0-100) :- The score given to the image based on relevance of the image
 
 vii) our_rank : - The ranked position of the image on the basis of the score given.  
 
-There are 29 data points that are relevant based on the image and the website url and 21 data points that can be termed irrelavant.
+There are 30 data points that are relevant based on the image and the website url and 20 data points that can be termed irrelavant.
 The acceptance level is set to 95%.
+
+REF :-  https://docs.google.com/spreadsheets/d/1cgSkw9C-YzPeoiWkzyWVpwhBxnIxpYx3A7ckfBBbNiU/edit?usp=sharing
 
 
 
