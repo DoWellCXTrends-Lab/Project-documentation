@@ -1,3 +1,9 @@
+Yesterday i was working on a road map on how to get to the shop site to get the shop level data
+What data we need, variable
+Gazal is working on the consumer level data from where she can scrap the shop name and shop url which i need to scrap the data
+In the meantime i am working with the shops that i already have 
+
+
 Created a new branch Review Scraper which contains the code to scrap the consumer lever reviews, name, date and time using Scrapy and scrapeops api
 
 
