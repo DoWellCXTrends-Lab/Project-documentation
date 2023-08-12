@@ -46,7 +46,14 @@ Data collection or data gathering is the process of gathering and measuring info
 
 Data Collection Plan:
 Google search
-Collecting 1000 results from all possible categories (Images ,videos ,maps, News etc…) 
+Collecting 1000 results from all categories 
+1)links(all)
+2)images
+3)videos
+4)shopping
+5)map
+6)news
+
 using the filter : Any time 
 Data will be collect at every hour
 here each data points consist of both the result(image,link..) and its ranked position
