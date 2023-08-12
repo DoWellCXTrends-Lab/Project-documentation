@@ -1,3 +1,6 @@
+Working on the issues with the API i.e The API is getting the data sometimes and sometimes it is returning an empty string.
+Got some more shop/seller urls and names to work on with and also waiting for gazal to provide more shop urls and details
+
 Scrapeops API is having some issues to collect all the data working on the errors and preparing a new model from scratch
 Also helping gazal with getting the consumer level data as we both are working with scrapeops
 She having some trouble gettng the data, empty data set is being returned every time i was helping her in resolving the issue
