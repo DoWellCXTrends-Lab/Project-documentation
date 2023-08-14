@@ -1,4 +1,49 @@
 Data Collecting
-Collecting Multipe seller avaliable in ecommerce site.
-Filtering the data to our requirements 
+const SerpApi = require('google-search-results-nodejs');
+const json2csv = require('json2csv');
+const fs = require('fs');
+
+const apiKey = "YOUR_SERPAPI_API_KEY"; 
+
+const countries = [
+  { name: "India", code: "in" },
+  { name: "United States" },
+  { name: "Germany", code: "de" },
+  
+];
+
+async function fetchSearchResults(country) {
+  const search = new SerpApi.GoogleSearch(apiKey);
+
+  const params = {
+    engine: "google",
+    q: "Airpods",
+    hl: "en",
+    gl: country.code || "us", 
+    google_domain: "google.com",
+    num: "100",
+    start: "1",
+    safe: "active"
+  };
+
+  return new Promise((resolve, reject) => {
+    search.json(params, (data) => {
+      const organicResults = data["organic_results"];
+      resolve(organicResults);
+    });
+  });
+}
+
+(async () => {
+  for (const country of countries) {
+    const results = await fetchSearchResults(country);
+
+    const csv = json2csv.parse(results, { header: true });
+
+    const fileName = `search_results_${country.name.replace(/\s+/g, '_')}.csv`;
+    fs.writeFileSync(fileName, csv, 'utf-8');
+
+    console.log(`CSV file '${fileName}' created successfully for ${country.name}`);
+  }
+})();
 
