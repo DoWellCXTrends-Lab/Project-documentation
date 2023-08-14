@@ -1,0 +1,7 @@
+ideas 
+
+-new column 'no:of occurance' and 'Repetition_score' 
+no:of occurance is the no:of repetition of the same link/image in the search result
+repetition_score is the score assigned according to the no:of occurance of the same image/link...
+
+Repetition_score should be considered in calculating Our_rank equation
