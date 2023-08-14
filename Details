@@ -2,3 +2,7 @@ Scraping amazon product reviews using ScrapeOps in india.
 Pros- Hepls to overcome Amazon' anti bot.
 
 Currently facing issue - scraping only Ist page
+
+Scrapping only certain product reviews as whole
+For some products - Its getting blocked
+Check with different products to see whether it is a defense of amazon
