@@ -1,3 +1,11 @@
+14/august
+working on the different API's to find out a desired results
+Been getting empty json file as a result by scrapeops API 
+Issue with the Automated methods is that getting blocked by the Ecom sites
+Trying different methods and API's to resolve the issue
+Uploaded my Selenium code as well "AmazonSeller"
+
+
 I have uploaded my code in the respective library under the name of SellerInfo
 Working on the issues with the API i.e The API is getting the data sometimes and sometimes it is returning an empty string.
 Got some more shop/seller urls and names to work on with and also waiting for gazal to provide more shop urls and details
