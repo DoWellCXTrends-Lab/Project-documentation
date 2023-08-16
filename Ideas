@@ -1,7 +1,24 @@
-ideas 
+INSTANT FOOD
+definition :-Instant foods are convenience foods which require minimal preparation, typically just adding water or milk.
+Some authors define "instant" food as requiring less than five minutes of preparation and "ultra-instant food" as requiring 
+less than one minute.
 
--new column 'no:of occurance' and 'Repetition_score' 
-no:of occurance is the no:of repetition of the same link/image in the search result
-repetition_score is the score assigned according to the no:of occurance of the same image/link...
+Question:How relevant is the image to the product instant food?
 
-Repetition_score should be considered in calculating Our_rank equation
+Variables
+
+outside image
+1)Title -The title should accurately describe what is depicted in the image.
+2)link
+
+inside image
+1)Brand name:
+	A brand name is a unique and distinctive word, phrase, symbol, design, or combination that is used 	
+to identify and distinguish a particular product, service, or company from others in the market
+2)Packaging:
+	Packaging refers to the design, materials, and presentation used to encase and protect a product
+3)Product name
+	Specific name or label assigned to a product that is prominently displayed on its packaging. This name
+serves as an essential identifier, helping consumers quickly recognize and distinguish the product from 
+others on the market
+4)
