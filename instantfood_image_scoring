@@ -1,0 +1,49 @@
+we have collected 50 instant food products images from Google images for our demo report.Here we are going to give
+our ranking for the images based on the scores we are calculating from the images.
+->The score will be based on the question "How relevant is this image for our product(instantfood)?".
+->To calculate the relevance we need to find some variables which are making it relevant, for eg;brand,colors etc.
+->Equal weights can be considered for all variables at the initial stage.
+->we are finding a score in the range 0-100.
+
+->why product images are so important?
+-customers make an immediate value judgement based on the look and aesthetic of your product.Regardless of whether or not that's a fair assessment
+of your product's quality.if onsumers aren't impressed by your product images right off the bat,they will likely choose not to purchase your product.
+
+->what makes a good product image
+ Most of the eye-catching products images share these characteristics:
+-Focus is on the product(product is close up and takes up most of the image).
+-Product is shown against white background.
+-The image is very clear and high quality(>500x500).
+**IT'S IMPORTANT TO SHOWCASE YOUR PRODUCT AS IT WOULD APPEAR IN STORES.**
+
+->what to avoid
+-Images of anything other than your product.
+-Grainy low-pixel photos
+-Dark and Shadowy images
+-Photos where the product only takes uo 1/2 or less of total image.
+-Any words,logos or watermarks in your image (no edited text on or around the product).
+-Image where the product is sideways or upside down
+-Image of your product without its packaging if it is sold in packaging.
+-Not enough pictures.
+
+->variables considering for our product instant food considering above points in my mind are:
+(overall) 
+1.Relevant image(if product the is instant food the image showcased is of instant food).
+2.Image quality
+3.Background (white or not,distracting or a busy background)
+4.Image size (overall space taken by the image).
+5.Orientation(upside down,sideways)
+6.presence of unwanted text,logos or watermarks
+7.Dominant colors (entire image)
+
+(in the image)
+
+8.Brand name
+9.Readable Product Details(ingredients,weight,Manufacturer)
+10.Zoom in-Zoom out feature
+11.No of pictures(taken in different angles).
+12.Presence of keywords
+
+
+
+
