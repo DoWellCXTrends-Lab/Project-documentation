@@ -1,0 +1,29 @@
+from PIL import Image, ImageFilter
+
+def measure_sharpness(image_path):
+    try:
+        # Open the image using PIL
+        image = Image.open(image_path)
+        
+        # Convert the image to grayscale
+        grayscale_image = image.convert("L")
+        
+        # Apply the Laplacian filter to the grayscale image
+        laplacian_image = grayscale_image.filter(ImageFilter.LAPLACIAN)
+        
+        # Calculate the sharpness score using variance of the Laplacian
+        sharpness = laplacian_image.var()
+        
+        return sharpness
+    except Exception as e:
+        print("Error:", e)
+        return None
+
+if __name__ == "__main__":
+    image_path = "My_image.jpg"  # Replace with the actual path to your image
+    sharpness = measure_sharpness(image_path)
+    
+    if sharpness is not None:
+        print(f"Sharpness of the image: {sharpness}")
+    else:
+        print("Failed to measure sharpness.")
