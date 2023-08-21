@@ -26,8 +26,6 @@ n is the number of data points.
 
 Determine the P-Value:
 Using the calculated test statistic, you can determine the associated p-value from the t-distribution. 
-The p-value represents the probability of obtaining a test statistic as extreme as the one calculated, 
-assuming the null hypothesis is true.
 
 Make a Decision:
 Compare the p-value to a pre-defined significance level (alpha), commonly 0.05.
@@ -37,6 +35,9 @@ If you reject the null hypothesis, you can conclude that there is a statisticall
 relationship between the two variables. If you fail to reject the null hypothesis,
 you don't have sufficient evidence to claim a significant relationship.
 
+
+H0: There is no monotonic relationship between Our rank and Google rank		
+Ha: There is a monotonic relationship between Our rank and google rank			
 
 alpha:	0.05			
 Coefficient(ρ)	-0.006535792717			
