@@ -1,3 +1,70 @@
+Spearman's Rank Correlation
+
+Spearman's rank correlation coefficient, often referred to simply as Spearman's rho (ρ), 
+is a statistical measure used to assess the strength and direction of the monotonic 
+relationship between two variables
+
+State the Hypotheses:
+
+H0: There is no monotonic relationship between the two variables.
+Ha: There is a monotonic relationship between the two variables.
+
+Calculate the Spearman's Rank Correlation Coefficient (ρ):
+Rank the data for both variables and then calculate the Spearman's rank correlation coefficient
+
+Calculate the Test Statistic:
+The test statistic for Spearman's rank correlation is typically based on the calculated ρ value.
+It is transformed to a value that follows a t-distribution under the null hypothesis. 
+The formula for the test statistic is:
+
+t = (ρ * sqrt(n - 2)) / sqrt(1 - ρ²)
+
+Where:
+
+ρ is the calculated Spearman's rank correlation coefficient.
+n is the number of data points.
+
+Determine the P-Value:
+Using the calculated test statistic, you can determine the associated p-value from the t-distribution. 
+The p-value represents the probability of obtaining a test statistic as extreme as the one calculated, 
+assuming the null hypothesis is true.
+
+Make a Decision:
+Compare the p-value to a pre-defined significance level (alpha), commonly 0.05.
+
+Interpretation:
+If you reject the null hypothesis, you can conclude that there is a statistically significant monotonic 
+relationship between the two variables. If you fail to reject the null hypothesis,
+you don't have sufficient evidence to claim a significant relationship.
+
+
+alpha:	0.05			
+Coefficient(ρ)	-0.006535792717			
+N:	50			
+T statistic:	0.04528226738			
+DF:	48			
+P Value:	0.9640701875			
+				
+Since Pvalue > alpha				
+There is no enough evidence to conclude that there is a significant monotonic relationship between the two variables.				
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 INSTANT FOOD
 definition :-Instant foods are convenience foods which require minimal preparation, typically just adding water or milk.
 Some authors define "instant" food as requiring less than five minutes of preparation and "ultra-instant food" as requiring 
