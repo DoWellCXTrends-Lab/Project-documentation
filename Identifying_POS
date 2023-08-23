@@ -1,0 +1,11 @@
+Took main page that scraped at universal level.
+Pick snippet column for further text analysis.
+Target is to pick all the words from each row of snippet column and identifying as part of speech.
+Using NLTK for identifying part of speech.
+
+Problem facing:-
+Getting issue with part of speech identification that most of the verbs and adjectives treating as noun.
+
+Second idea:-
+Stop using NLTK, getting a library having almost every adjective, verbs are there so making dictionary using that library then matching each words with the dictionary to identify.
+Apart from those all are considered as a noun.
