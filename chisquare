@@ -7,7 +7,7 @@ we are measuring the distance of (L/I/V/M/S/N) from first result shown by the se
 
 since it's difficult to find the consumer's ideal product in each category of Independent Ranking. we are considering the dependent Ranking system ie, we are
 taking the first result shown by the search engine in each category as an ideal product.
-STEPS DID:
+
 Dependency method
 1.instead of ranking we are considering scores of variables.
 2.we considered Image category and supposed that there are 50 variables for an image.for image1,image2.....image13 we randomly generated values between 1-100 
@@ -15,7 +15,7 @@ for these 50 variables.
 3.Here image1 is considered as an ideal one.
 4.checking the dependency of image1's scores with others using chi square test.
 
-CHI-SQUARE TEST
+CHI-SQUARE TEST 
   The Chi-Square test is a statistical method used to determine if there is a significant association between two categorical variables. 
 It helps us understand whether the observed distribution of categorical data differs from the expected distribution, assuming certain hypotheses.
 
@@ -24,3 +24,38 @@ There are two main types of Chi-Square tests:
 1)Chi-Square Test for Goodness of Fit: This test determines whether the observed frequency distribution of a categorical variable fits a theoretical distribution.
 2)Chi-Square Test for Independence: This test investigates if there is a relationship between two categorical variables. It is often used to assess whether 
 the proportions of one categorical variable are different across different levels of another categorical variable.
+
+In this context, the test determines whether the observed and expected values exhibit similarity or not.
+
+Chi-Square Test Manual calculation Steps
+
+1)Formulate Hypotheses:
+Ho : There is no similarity between Observed and expected values
+Ha : There is similarity between Observed and expected values
+
+2)Collect and Organize Data:
+collect and organize the data in spreadsheet
+
+3)Calculate the Chi-Square Statistic:
+For each cell, calculate the contribution to the Chi-Square statistic using:
+ χ2= Σ(O-E)^2/E
+
+ where , χ2 is the chi-square statistics
+         O is the observed values
+         E is the expected values
+Sum up the contributions from all cells to obtain the Chi-Square statistic.
+
+4)Determine Degrees of Freedom:
+Calculate the degrees of freedom using:
+ df = n-1
+
+where n = No:of variables
+
+5)Calculate P-Value:
+calculate the p-value associated with the Chi-Square statistic 
+CHISQ.DIST.RT(statistic ,df) (in spreadsheet)
+
+6)Compare Chi-Square Statistic P-Value:
+If the calculated p-value is less than the significance level, reject the null hypothesis.
+
+
