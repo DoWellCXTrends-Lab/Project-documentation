@@ -1,0 +1,9 @@
+CHI-SQUARE TEST
+  The Chi-Square test is a statistical method used to determine if there is a significant association between two categorical variables. 
+It helps us understand whether the observed distribution of categorical data differs from the expected distribution, assuming certain hypotheses.
+
+Types of Chi-Square Tests
+There are two main types of Chi-Square tests:
+1)Chi-Square Test for Goodness of Fit: This test determines whether the observed frequency distribution of a categorical variable fits a theoretical distribution.
+2)Chi-Square Test for Independence: This test investigates if there is a relationship between two categorical variables. It is often used to assess whether 
+the proportions of one categorical variable are different across different levels of another categorical variable.
