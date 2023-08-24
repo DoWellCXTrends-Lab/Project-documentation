@@ -7,7 +7,7 @@ we are measuring the distance of (L/I/V/M/S/N) from first result shown by the se
 
 since it's difficult to find the consumer's ideal product in each category of Independent Ranking. we are considering the dependent Ranking system ie, we are
 taking the first result shown by the search engine in each category as an ideal product.
-STEPS WE DID:
+STEPS DID:
 Dependency method
 1.instead of ranking we are considering scores of variables.
 2.we considered Image category and supposed that there are 50 variables for an image.for image1,image2.....image13 we randomly generated values between 1-100 
