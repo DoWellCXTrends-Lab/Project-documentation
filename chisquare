@@ -1,5 +1,5 @@
 DATA PREPROCESSING 
- There are two ways ranking the products on the basis of customer perspective.
+ There are two ways of ranking the products on the basis of customer perspective.
 1. Independent Ranking  2. Dependent Ranking
 In independent Ranking we are measuring distance of (L/I/V/M/S/N) from consumer's ideal product's in L/I/V/M/S/N. whereas in Dependent ranking system 
 we are measuring the distance of (L/I/V/M/S/N) from first result shown by the search engine in  L/I/V/M/S/N.
