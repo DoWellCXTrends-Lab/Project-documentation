@@ -1,5 +1,5 @@
 we have collected 50 instant food products images from Google images for our demo report.Here we are going to give
-our ranking for the images based on the scores we are calculating from the images.
+our ranks for the images based on the scores we are calculating from the images.
 ->The score will be based on the question "How relevant is this image for our product(instantfood)?".
 ->To calculate the relevance we need to find some variables which are making it relevant, for eg;brand,colors etc.
 ->Equal weights can be considered for all variables at the initial stage.
