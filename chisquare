@@ -42,7 +42,7 @@ For each cell, calculate the contribution to the Chi-Square statistic using:
 
  where , χ2 is the chi-square statistics
          O is the observed values
-         E is the expected values
+         E is the expected values(values of variables in image1)
 Sum up the contributions from all cells to obtain the Chi-Square statistic.
 
 4)Determine Degrees of Freedom:
