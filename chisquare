@@ -8,10 +8,11 @@ we are measuring the distance of (L/I/V/M/S/N) from first result shown by the se
 since it's difficult to find the consumer's ideal product in each category of Independent Ranking. we are considering the dependent Ranking system ie, we are
 taking the first result shown by the search engine in each category as an ideal product.
 STEPS WE DID:
-dependency method
-1. we considered Image category and supposed that there are 50 variables for an image.for image1,image2.....image13 we randomly generated some values between 1-100.
-2.Here image1 is considered ideal.
-3.checking the dependency of image1 with others using chi square dependency test.
+Dependency method
+1.instead of ranking we are considering scores of variables.
+2. we considered Image category and supposed that there are 50 variables for an image.for image1,image2.....image13 we randomly generated some values between 1-100.
+3.Here image1 is considered ideal.
+4.checking the dependency of image1 with others using chi square test.
 
 CHI-SQUARE TEST
   The Chi-Square test is a statistical method used to determine if there is a significant association between two categorical variables. 
