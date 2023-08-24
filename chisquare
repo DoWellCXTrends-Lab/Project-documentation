@@ -10,9 +10,10 @@ taking the first result shown by the search engine in each category as an ideal 
 STEPS WE DID:
 Dependency method
 1.instead of ranking we are considering scores of variables.
-2. we considered Image category and supposed that there are 50 variables for an image.for image1,image2.....image13 we randomly generated some values between 1-100.
-3.Here image1 is considered ideal.
-4.checking the dependency of image1 with others using chi square test.
+2.we considered Image category and supposed that there are 50 variables for an image.for image1,image2.....image13 we randomly generated values between 1-100 
+for these 50 variables.
+3.Here image1 is considered as an ideal one.
+4.checking the dependency of image1's scores with others using chi square test.
 
 CHI-SQUARE TEST
   The Chi-Square test is a statistical method used to determine if there is a significant association between two categorical variables. 
