@@ -1,3 +1,14 @@
+DATA PREPROCESSING 
+ There are two ways ranking on the basis of customer perspective.
+1. Independent Ranking  2. Dependent Ranking
+In independent Ranking we are measuring distance of (L/I/V/M/S/N) from consumer's ideal product's in L/I/V/M/S/N. whereas in Dependent ranking system 
+we are measuring the distance of (L/I/V/M/S/N) from first result shown by the search engine in  L/I/V/M/S/N.
+**L-Link,I-Image,V-Videos,M-Maps,S-Shopping,N-News
+
+since it's difficult to find the consumer's ideal product in each category of Independent Ranking. we are considering the dependent Ranking system ie, we are
+taking the first result shown by the search engine in each category as an ideal product.
+
+
 CHI-SQUARE TEST
   The Chi-Square test is a statistical method used to determine if there is a significant association between two categorical variables. 
 It helps us understand whether the observed distribution of categorical data differs from the expected distribution, assuming certain hypotheses.
