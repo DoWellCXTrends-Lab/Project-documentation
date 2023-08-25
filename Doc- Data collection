@@ -1,0 +1,72 @@
+Data Collection Documentation
+
+Overview:
+  This documentation presents a data collection methodology designed to track search engine ranks for 50 distinct products across 50 different countries
+
+Data Collection Structure
+
+Cx: Country ID (C1, C2, ..., C50)
+Dx: Day ID (D1, D2, ..., D365)
+Px: Product ID (P1, P2, ..., P50)
+L/I/V/M/S/N: Data types (Links, Images, Videos, Maps, Shopping, News)
+
+1)Data Collection Instances
+
+Data is collected for different product.
+
+Product 1: P1.L, P1.I, P1.V, P1.M, P1.S, P1.N
+Product 2: P2.L, P2.I, P2.V, P2.M, P2.S, P2.N
+Product 3: P3.L, P3.I, P3.V, P3.M, P3.S, P3.N
+...
+Product 50: P50.L, P50.I, P50.V, P50.M, P50.S, P50.N
+
+Example Product 1: Instant Food
+Link Data: P1.L, Image Data: P1.I, Video Data: P1.V
+Map Data: P1.M, Shopping Data: P1.S, News Data: P1.N
+Similarly for 50 products
+
+2)Instance Cycle
+Data collection occurs over a specified cycle for each product instance.
+Cycle: Day 1, Day 2, Day 3, ..., Day 365
+
+Country 1: C1.Dx.Px.L/I/V/M/S/N
+Country 2: C2.Dx.Px.L/I/V/M/S/N
+Country 3: C3.Dx.Px.L/I/V/M/S/N
+...
+Country 50: C50.Dx.Px.L/I/V/M/S/N
+
+Example Country 1: India
+Day 1:
+Instant Food: C1.D1.P1.L, C1.D1.P1.I, C1.D1.P1.V, C1.D1.P1.M, C1.D1.P1.S, C1.D1.P1.N
+Portable blender: C1.D1.P2.L, C1.D1.P2.I, C1.D1.P2.V, C1.D1.P2.M, C1.D1.P2.S, C1.D1.P2.N
+...
+product 50:
+Similarly we will collect data from 50 countries in Day 1 
+
+Day 2:
+Instant Food: C1.D2.P1.L, C1.D2.P1.I, C1.D2.P1.V, C1.D2.P1.M, C1.D2.P1.S, C1.D2.P1.N
+Portable blender: C1.D2.P2.L, C1.D2.P2.I, C1.D2.P2.V, C1.D2.P2.M, C1.D2.P2.S, C1.D2.P2.N
+...
+Product 50:
+Similarly we will collect data from 50 countries in Day 2
+...
+
+Day 365:
+Instant Food: C1.D365.P1.L, C1.D365.P1.I, C1.D365.P1.V, C1.D365.P1.M, C1.D365.P1.S, C1.D365.P1.N
+Portable blender: C1.D365.P2.L, C1.D365.P2.I, C1.D365.P2.V, C1.D365.P2.M, C1.D365.P2.S, C1.D365.P2.N
+...
+Product 50:
+Similarly we will collect data from 50 countries in Day 365
+
+Data Points
+
+Rank 1: Cx.Dx.Px.L1/I1/V1/M1/S1/N1
+Rank 2: Cx.Dx.Px.L2/I2/V2/M2/S2/N2
+Rank 3: Cx.Dx.Px.L3/I3/V3/M3/S3/N3
+Rank 4: Cx.Dx.Px.L4/I4/V4/M4/S4/N4
+...
+Rank 10000: Cx.Dx.Px.L10000/I10000/V10000/M10000/S10000/N10000
+
+so,
+IN DAY 1:
+we will be collecting data for each 50 product,from each 50 country -10000 L/I/V/M/S/N 
