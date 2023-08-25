@@ -58,4 +58,4 @@ CHISQ.DIST.RT(statistic ,df) (in spreadsheet)
 6)Compare Chi-Square Statistic P-Value:
 If the calculated p-value is less than the significance level, reject the null hypothesis.
 
-
+7)Create a graph depicting the p-values obtained from the tests
