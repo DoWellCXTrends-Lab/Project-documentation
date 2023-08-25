@@ -22,12 +22,12 @@ It helps us understand whether the observed distribution of categorical data dif
 Types of Chi-Square Tests
 There are two main types of Chi-Square tests:
 1)Chi-Square Test for Goodness of Fit: This test determines whether the observed frequency distribution of a categorical variable fits a theoretical distribution.
-2)Chi-Square Test for Independence: This test investigates if there is a relationship between two categorical variables. It is often used to assess whether 
-the proportions of one categorical variable are different across different levels of another categorical variable.
+2)Chi-Square Test for Independence: This test investigates if there is a relationship between two categorical variables. 
 
 In this context, the test determines whether the observed and expected values exhibit similarity or not.
 
-Chi-Square Test Manual calculation Steps
+Chi-Square Test 
+Manual calculation Steps:-
 
 1)Formulate Hypotheses:
 Ho : There is no similarity between Observed and expected values
@@ -49,7 +49,7 @@ Sum up the contributions from all cells to obtain the Chi-Square statistic.
 Calculate the degrees of freedom using:
  df = n-1
 
-where n = No:of variables
+where, n is the No:of variables
 
 5)Calculate P-Value:
 calculate the p-value associated with the Chi-Square statistic 
