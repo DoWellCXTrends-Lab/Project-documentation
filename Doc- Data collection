@@ -70,3 +70,6 @@ Rank 10000: Cx.Dx.Px.L10000/I10000/V10000/M10000/S10000/N10000
 so,
 IN DAY 1:
 we will be collecting data for each 50 product,from each 50 country -10000 L/I/V/M/S/N 
+for each product = 10,000*6 =60000
+      50 product = 50*60000 =3000000
+      50 country = 50*3000000 =150000000 data points per day
