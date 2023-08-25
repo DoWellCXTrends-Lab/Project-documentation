@@ -9,3 +9,13 @@ Getting issue with part of speech identification that most of the verbs and adje
 Second idea:-
 Stop using NLTK, getting a library having almost every adjective, verbs are there so making dictionary using that library then matching each words with the dictionary to identify.
 Apart from those all are considered as a noun.
+
+
+Problem resolved:-
+NLTK is idntifying some adjective and verbs as a noun because these are in capitalized form. Change those to lower case then it identified accurate.
+
+Next Step:-
+-all text from all the search result, compare them
+-check the noun, verb, adjective, pronouns in obsn 1st, 2nd, 3rd......
+-no of characters, words, sentences, paragraph, font type, font size
+-comparison- how to compare..
