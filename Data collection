@@ -9,3 +9,11 @@ Output was 100 lines for both countries--Title,Url,Source,Description,Ratings,Re
 Serpapi makes some limitation for search and doesnt allow more than 100 results.
 I have also tried for more than 5 countries, results same to 100 lines.
 Then i have uploaded all the results in Drive folder and uploaded the code in git.
+
+USING PYTHON - TEXT EXTRACTION FROM IMAGE
+To extract the text from images i have used Google colaboratory
+First i checked for the image condition, then checked ways for extracting text.
+Written python code and inserted the URL of the image in the path.
+I were able to get the text for images sucessfully.
+But for small size images, i have issue with extracting text.
+I have upload the code in Git as "Text extract from Images".
