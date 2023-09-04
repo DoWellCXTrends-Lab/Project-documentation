@@ -1,3 +1,11 @@
+we have put a hold on image processing as our priority is to prepare UI first using whether Django or JS framework
+As thomas sir said we need to use django instead of flask.
+Hence we are figuring out and working on how to setup the MongoDB database and learning about Django
+For now we have a data in the CSV format therefore django is having some error reading the data from csv and displaying it
+I am finding the solutions to those errors
+
+
+
 Working on image processing task we need to extract the texts or phrases from the images.
 To extract text we need to use OCR engine reading and learning about them.
 Tesseract is the ocr engine we found that could be useful for our task.
