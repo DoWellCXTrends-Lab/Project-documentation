@@ -1,19 +1,14 @@
 Data Collection
-In first, the product is Airpods.
-I tried for Airpods--any country --Detailed points(Title,Url,Source,Description,Ratings,Reviews,price.)
+In first, the product i have trired is Airpods.
+I tried for Airpods-- India --Detailed points(Title,Url,Source,Description,Ratings,Reviews,price.)
 Using nodejs and Serpapi, i have started working on it.
 Have took Airpods--then India for gl--10 pages avaliable in google--added conversion of Json to CSV format as result.
 Output was 50 lines ----Detailes(Title,Url,Source,Description,Ratings,Reviews,price.)
 Then changed some codes and tried again for India and US countries.
 Output was 100 lines for both countries--Title,Url,Source,Description,Ratings,Reviews,price.
+
+--ISSUE--
 Serpapi makes some limitation for search and doesnt allow more than 100 results.
 I have also tried for more than 5 countries, results same to 100 lines.
-Then i have uploaded all the results in Drive folder and uploaded the code in git.
+Then i have uploaded all the results in Drive-folder and uploaded the code in git.
 
-USING PYTHON - TEXT EXTRACTION FROM IMAGE
-To extract the text from images i have used Google colaboratory
-First i checked for the image condition, then checked ways for extracting text.
-Written python code and inserted the URL of the image in the path.
-I were able to get the text for images sucessfully.
-But for small size images, i have issue with extracting text.
-I have upload the code in Git as "Text extract from Images".
