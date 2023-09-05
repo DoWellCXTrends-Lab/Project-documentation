@@ -1,8 +1,8 @@
-we have put a hold on image processing as our priority is to prepare UI first using whether Django or JS framework
-As thomas sir said we need to use django instead of flask.
-Hence we are figuring out and working on how to setup the MongoDB database and learning about Django
-For now we have a data in the CSV format therefore django is having some error reading the data from csv and displaying it
-I am finding the solutions to those errors
+Main.py is a image processing file through which we are extracting the text from the images it was a sample program
+The program in unable to extract thr text from the images if the dimension of is smaller or around to the 100x100
+The size of most of the collected images is around 92x92 hence we are getting the result as an output itself instead of text.
+Making some changes in the code.and trying different OCR engines.
+First we were using Tesserract and now we are trying with easyocr python library
 
 
 
