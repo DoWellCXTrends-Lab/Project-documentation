@@ -1,0 +1,13 @@
+USING PYTHON -- TEXT EXTRACTION FROM IMAGE--
+
+To extract the text from images i have used Google colaboratory
+First i checked for the image condition, then checked ways for extracting text.
+Written python code and inserted the URL of the image in the path.
+I were able to get the text for images sucessfully.
+But for small size images like in google search, if i search for buy instant food and in result page i could see the Title,description,link,sub-link and also Image.
+If i open the image in a new tab, the image opens with smaller in size with similar to thumnail with 92*92 size.
+If i try to extract the text from that image, it is able to detect the image but don't gives the result.
+ISSUE----I have also checked for other small size images also which results same as empty text.
+So im facing issue with text extraction in small images.
+I have upload the code in Git as "Text extract from Image".
+
