@@ -1,0 +1,33 @@
+CONVERTING THE DETECTED COLOR CODE  TO ACTUAL COLOR PRESENT IN IMAGE.
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+# RGB values of the detected dominant colors
+detected_colors = [
+    (100, 141, 78),
+    (227, 122, 47),
+    (86, 43, 25),
+    (240, 241, 230),
+    (213, 172, 126)
+# ADD MORE COLOR CODE WHERE URL IS MORE THAN ONE
+]
+
+# Create a blank image with a white background
+image_size = (100, 100, 3)
+verification_image = np.ones(image_size, dtype=np.uint8) * 255
+
+# Calculate the width of each color swatch
+swatch_width = image_size[0] // len(detected_colors)
+
+# Create color swatches and fill them with the detected colors
+for i, color in enumerate(detected_colors):
+    start_x = i * swatch_width
+    end_x = (i + 1) * swatch_width
+    verification_image[:, start_x:end_x, :] = color
+
+# Display the image with color swatches
+plt.imshow(verification_image)
+plt.axis('off')
+plt.title('Detected Colors Verification')
+plt.show()
