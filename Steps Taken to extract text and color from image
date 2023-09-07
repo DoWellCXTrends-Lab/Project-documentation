@@ -1,0 +1,3 @@
+Using Python tried to extract text from images, but the resolution of the image is very less as 92*92 and unable to extract the text from image.
+As a next step ,tried for color detection from the image and extracted the color code and color present in the image seperately.
+Uploaded the code and output in seperate file in git.
