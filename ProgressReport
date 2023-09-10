@@ -1,3 +1,8 @@
+Identifying the background colour of a product and the other present colours in image.
+Writting the present colours in the excel sheet.
+Pushed the code in ImageProcessing branch, the name of the file is "bgColor of Product".
+
+
 Main.py is a image processing file through which we are extracting the text from the images it was a sample program
 The program in unable to extract thr text from the images if the dimension of is smaller or around to the 100x100
 The size of most of the collected images is around 92x92 hence we are getting the result as an output itself instead of text.
