@@ -11,3 +11,8 @@ ISSUE----I have also checked for other small size images also which results same
 So im facing issue with text extraction in small images.
 I have upload the code in Git as "Text extract from Image".
 
+we both have created a new file as Image Processing and updated the results for Color extraction from image and text extracted from image.
+Also updated the code used to extract the data in Image processing.
+11/9 currently working on Text extraction from image by google image search.
+currently facing issue when i make a loop for all image urls to extract text.
+
