@@ -17,7 +17,52 @@ Data is collected for different product.
 Product 1: P1.L, P1.I, P1.V, P1.M, P1.S, P1.N
 Product 2: P2.L, P2.I, P2.V, P2.M, P2.S, P2.N
 Product 3: P3.L, P3.I, P3.V, P3.M, P3.S, P3.N
-...
+Product 4: P4.L, P4.I, P4.V, P4.M, P4.S, P4.N
+Product 5: P5.L, P5.I, P5.V, P5.M, P5.S, P5.N
+Product 6: P6.L, P6.I, P6.V, P6.M, P6.S, P6.N
+Product 7: P7.L, P7.I, P7.V, P7.M, P7.S, P7.N
+Product 8: P8.L, P8.I, P8.V, P8.M, P8.S, P8.N
+Product 9: P9.L, P9.I, P9.V, P9.M, P9.S, P9.N
+Product 10: P10.L, P10.I, P10.V, P10.M, P10.S, P10.N
+Product 11: P11.L, P11.I, P11.V, P11.M, P11.S, P11.N
+Product 12: P12.L, P12.I, P12.V, P12.M, P12.S, P12.N
+Product 13: P13.L, P13.I, P13.V, P13.M, P13.S, P13.N
+Product 14: P14.L, P14.I, P14.V, P14.M, P14.S, P14.N
+Product 15: P15.L, P15.I, P15.V, P15.M, P15.S, P15.N
+Product 16: P16.L, P16.I, P16.V, P16.M, P16.S, P16.N
+Product 17: P17.L, P17.I, P17.V, P17.M, P17.S, P17.N
+Product 18: P18.L, P18.I, P18.V, P18.M, P18.S, P18.N
+Product 19: P19.L, P19.I, P19.V, P19.M, P19.S, P19.N
+Product 20: P20.L, P20.I, P20.V, P20.M, P20.S, P20.N
+Product 21: P21.L, P21.I, P21.V, P21.M, P21.S, P21.N
+Product 22: P22.L, P22.I, P22.V, P22.M, P22.S, P22.N
+Product 23: P23.L, P23.I, P23.V, P23.M, P23.S, P23.N
+Product 24: P24.L, P24.I, P24.V, P24.M, P24.S, P24.N
+Product 25: P25.L, P25.I, P25.V, P25.M, P25.S, P25.N
+Product 26: P26.L, P26.I, P26.V, P26.M, P26.S, P26.N
+Product 27: P27.L, P27.I, P27.V, P27.M, P27.S, P27.N
+Product 28: P28.L, P28.I, P28.V, P28.M, P28.S, P28.N
+Product 29: P29.L, P29.I, P29.V, P29.M, P29.S, P29.N
+Product 30: P30.L, P30.I, P30.V, P30.M, P30.S, P30.N
+Product 31: P31.L, P31.I, P31.V, P31.M, P31.S, P31.N
+Product 32: P32.L, P32.I, P32.V, P32.M, P32.S, P32.N
+Product 33: P33.L, P33.I, P33.V, P33.M, P33.S, P33.N
+Product 34: P34.L, P34.I, P34.V, P34.M, P34.S, P34.N
+Product 35: P35.L, P35.I, P35.V, P35.M, P35.S, P35.N
+Product 36: P36.L, P36.I, P36.V, P36.M, P36.S, P36.N
+Product 37: P37.L, P37.I, P37.V, P37.M, P37.S, P37.N
+Product 38: P38.L, P38.I, P38.V, P38.M, P38.S, P38.N
+Product 39: P39.L, P39.I, P39.V, P39.M, P39.S, P39.N
+Product 40: P40.L, P40.I, P40.V, P40.M, P40.S, P40.N
+Product 41: P41.L, P41.I, P41.V, P41.M, P41.S, P41.N
+Product 42: P42.L, P42.I, P42.V, P42.M, P42.S, P42.N
+Product 43: P43.L, P43.I, P43.V, P43.M, P43.S, P43.N
+Product 44: P44.L, P44.I, P44.V, P44.M, P44.S, P44.N
+Product 45: P45.L, P45.I, P45.V, P45.M, P45.S, P45.N
+Product 46: P46.L, P46.I, P46.V, P46.M, P46.S, P46.N
+Product 47: P47.L, P47.I, P47.V, P47.M, P47.S, P47.N
+Product 48: P48.L, P48.I, P48.V, P48.M, P48.S, P48.N
+Product 49: P49.L, P49.I, P49.V, P49.M, P49.S, P49.N
 Product 50: P50.L, P50.I, P50.V, P50.M, P50.S, P50.N
 
 Example Product 1: Instant Food
@@ -29,11 +74,56 @@ Similarly for 50 products
 Data collection occurs over a specified cycle for each product instance.
 Cycle: Day 1, Day 2, Day 3, ..., Day 365
 
-Country 1: C1.Dx.Px.L/I/V/M/S/N
-Country 2: C2.Dx.Px.L/I/V/M/S/N
-Country 3: C3.Dx.Px.L/I/V/M/S/N
-...
-Country 50: C50.Dx.Px.L/I/V/M/S/N
+Country 1: C1.Dx.Px.L, C1.Dx.Px.I, C1.Dx.Px.V, C1.Dx.Px.M, C1.Dx.Px.S, C1.Dx.Px.N
+Country 2: C2.Dx.Px.L, C2.Dx.Px.I, C2.Dx.Px.V, C2.Dx.Px.M, C2.Dx.Px.S, C2.Dx.Px.N
+Country 3: C3.Dx.Px.L, C3.Dx.Px.I, C3.Dx.Px.V, C3.Dx.Px.M, C3.Dx.Px.S, C3.Dx.Px.N
+Country 4: C4.Dx.Px.L, C4.Dx.Px.I, C4.Dx.Px.V, C4.Dx.Px.M, C4.Dx.Px.S, C4.Dx.Px.N
+Country 5: C5.Dx.Px.L, C5.Dx.Px.I, C5.Dx.Px.V, C5.Dx.Px.M, C5.Dx.Px.S, C5.Dx.Px.N
+Country 6: C6.Dx.Px.L, C6.Dx.Px.I, C6.Dx.Px.V, C6.Dx.Px.M, C6.Dx.Px.S, C6.Dx.Px.N
+Country 7: C7.Dx.Px.L, C7.Dx.Px.I, C7.Dx.Px.V, C7.Dx.Px.M, C7.Dx.Px.S, C7.Dx.Px.N
+Country 8: C8.Dx.Px.L, C8.Dx.Px.I, C8.Dx.Px.V, C8.Dx.Px.M, C8.Dx.Px.S, C8.Dx.Px.N
+Country 9: C9.Dx.Px.L, C9.Dx.Px.I, C9.Dx.Px.V, C9.Dx.Px.M, C9.Dx.Px.S, C9.Dx.Px.N
+Country 10: C10.Dx.Px.L, C10.Dx.Px.I, C10.Dx.Px.V, C10.Dx.Px.M, C10.Dx.Px.S, C10.Dx.Px.N
+Country 11: C11.Dx.Px.L, C11.Dx.Px.I, C11.Dx.Px.V, C11.Dx.Px.M, C11.Dx.Px.S, C11.Dx.Px.N
+Country 12: C12.Dx.Px.L, C12.Dx.Px.I, C12.Dx.Px.V, C12.Dx.Px.M, C12.Dx.Px.S, C12.Dx.Px.N
+Country 13: C13.Dx.Px.L, C13.Dx.Px.I, C13.Dx.Px.V, C13.Dx.Px.M, C13.Dx.Px.S, C13.Dx.Px.N
+Country 14: C14.Dx.Px.L, C14.Dx.Px.I, C14.Dx.Px.V, C14.Dx.Px.M, C14.Dx.Px.S, C14.Dx.Px.N
+Country 15: C15.Dx.Px.L, C15.Dx.Px.I, C15.Dx.Px.V, C15.Dx.Px.M, C15.Dx.Px.S, C15.Dx.Px.N
+Country 16: C16.Dx.Px.L, C16.Dx.Px.I, C16.Dx.Px.V, C16.Dx.Px.M, C16.Dx.Px.S, C16.Dx.Px.N
+Country 17: C17.Dx.Px.L, C17.Dx.Px.I, C17.Dx.Px.V, C17.Dx.Px.M, C17.Dx.Px.S, C17.Dx.Px.N
+Country 18: C18.Dx.Px.L, C18.Dx.Px.I, C18.Dx.Px.V, C18.Dx.Px.M, C18.Dx.Px.S, C18.Dx.Px.N
+Country 19: C19.Dx.Px.L, C19.Dx.Px.I, C19.Dx.Px.V, C19.Dx.Px.M, C19.Dx.Px.S, C19.Dx.Px.N
+Country 20: C20.Dx.Px.L, C20.Dx.Px.I, C20.Dx.Px.V, C20.Dx.Px.M, C20.Dx.Px.S, C20.Dx.Px.N
+Country 21: C21.Dx.Px.L, C21.Dx.Px.I, C21.Dx.Px.V, C21.Dx.Px.M, C21.Dx.Px.S, C21.Dx.Px.N
+Country 22: C22.Dx.Px.L, C22.Dx.Px.I, C22.Dx.Px.V, C22.Dx.Px.M, C22.Dx.Px.S, C22.Dx.Px.N
+Country 23: C23.Dx.Px.L, C23.Dx.Px.I, C23.Dx.Px.V, C23.Dx.Px.M, C23.Dx.Px.S, C23.Dx.Px.N
+Country 24: C24.Dx.Px.L, C24.Dx.Px.I, C24.Dx.Px.V, C24.Dx.Px.M, C24.Dx.Px.S, C24.Dx.Px.N
+Country 25: C25.Dx.Px.L, C25.Dx.Px.I, C25.Dx.Px.V, C25.Dx.Px.M, C25.Dx.Px.S, C25.Dx.Px.N
+Country 26: C26.Dx.Px.L, C26.Dx.Px.I, C26.Dx.Px.V, C26.Dx.Px.M, C26.Dx.Px.S, C26.Dx.Px.N
+Country 27: C27.Dx.Px.L, C27.Dx.Px.I, C27.Dx.Px.V, C27.Dx.Px.M, C27.Dx.Px.S, C27.Dx.Px.N
+Country 28: C28.Dx.Px.L, C28.Dx.Px.I, C28.Dx.Px.V, C28.Dx.Px.M, C28.Dx.Px.S, C28.Dx.Px.N
+Country 29: C29.Dx.Px.L, C29.Dx.Px.I, C29.Dx.Px.V, C29.Dx.Px.M, C29.Dx.Px.S, C29.Dx.Px.N
+Country 30: C30.Dx.Px.L, C30.Dx.Px.I, C30.Dx.Px.V, C30.Dx.Px.M, C30.Dx.Px.S, C30.Dx.Px.N
+Country 31: C31.Dx.Px.L, C31.Dx.Px.I, C31.Dx.Px.V, C31.Dx.Px.M, C31.Dx.Px.S, C31.Dx.Px.N
+Country 32: C32.Dx.Px.L, C32.Dx.Px.I, C32.Dx.Px.V, C32.Dx.Px.M, C32.Dx.Px.S, C32.Dx.Px.N
+Country 33: C33.Dx.Px.L, C33.Dx.Px.I, C33.Dx.Px.V, C33.Dx.Px.M, C33.Dx.Px.S, C33.Dx.Px.N
+Country 34: C34.Dx.Px.L, C34.Dx.Px.I, C34.Dx.Px.V, C34.Dx.Px.M, C34.Dx.Px.S, C34.Dx.Px.N
+Country 35: C35.Dx.Px.L, C35.Dx.Px.I, C35.Dx.Px.V, C35.Dx.Px.M, C35.Dx.Px.S, C35.Dx.Px.N
+Country 36: C36.Dx.Px.L, C36.Dx.Px.I, C36.Dx.Px.V, C36.Dx.Px.M, C36.Dx.Px.S, C36.Dx.Px.N
+Country 37: C37.Dx.Px.L, C37.Dx.Px.I, C37.Dx.Px.V, C37.Dx.Px.M, C37.Dx.Px.S, C37.Dx.Px.N
+Country 38: C38.Dx.Px.L, C38.Dx.Px.I, C38.Dx.Px.V, C38.Dx.Px.M, C38.Dx.Px.S, C38.Dx.Px.N
+Country 39: C39.Dx.Px.L, C39.Dx.Px.I, C39.Dx.Px.V, C39.Dx.Px.M, C39.Dx.Px.S, C39.Dx.Px.N
+Country 40: C40.Dx.Px.L, C40.Dx.Px.I, C40.Dx.Px.V, C40.Dx.Px.M, C40.Dx.Px.S, C40.Dx.Px.N
+Country 41: C41.Dx.Px.L, C41.Dx.Px.I, C41.Dx.Px.V, C41.Dx.Px.M, C41.Dx.Px.S, C41.Dx.Px.N
+Country 42: C42.Dx.Px.L, C42.Dx.Px.I, C42.Dx.Px.V, C42.Dx.Px.M, C42.Dx.Px.S, C42.Dx.Px.N
+Country 43: C43.Dx.Px.L, C43.Dx.Px.I, C43.Dx.Px.V, C43.Dx.Px.M, C43.Dx.Px.S, C43.Dx.Px.N
+Country 44: C44.Dx.Px.L, C44.Dx.Px.I, C44.Dx.Px.V, C44.Dx.Px.M, C44.Dx.Px.S, C44.Dx.Px.N
+Country 45: C45.Dx.Px.L, C45.Dx.Px.I, C45.Dx.Px.V, C45.Dx.Px.M, C45.Dx.Px.S, C45.Dx.Px.N
+Country 46: C46.Dx.Px.L, C46.Dx.Px.I, C46.Dx.Px.V, C46.Dx.Px.M, C46.Dx.Px.S, C46.Dx.Px.N
+Country 47: C47.Dx.Px.L, C47.Dx.Px.I, C47.Dx.Px.V, C47.Dx.Px.M, C47.Dx.Px.S, C47.Dx.Px.N
+Country 48: C48.Dx.Px.L, C48.Dx.Px.I, C48.Dx.Px.V, C48.Dx.Px.M, C48.Dx.Px.S, C48.Dx.Px.N
+Country 49: C49.Dx.Px.L, C49.Dx.Px.I, C49.Dx.Px.V, C49.Dx.Px.M, C49.Dx.Px.S, C49.Dx.Px.N
+Country 50: C50.Dx.Px.L, C50.Dx.Px.I, C50.Dx.Px.V, C50.Dx.Px.M, C50.Dx.Px.S, C50.Dx.Px.N
 
 Example Country 1: India
 Day 1:
