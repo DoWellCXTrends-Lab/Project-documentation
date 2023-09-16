@@ -1,64 +1,21 @@
 Using some Exmaple image tried to extract logo from the image and the code is imported.
 
-import cv2
-import numpy as np
-from google.colab import files
-from matplotlib import pyplot as plt
-!git clone https://github.com/AlexeyAB/darknet
-%cd darknet
+!git clone https://github.com/misbah4064/darknet.git
+%cd darknet/
+ #Run Make-File to create Darknet executable
 !make
-# Upload the YOLO weights file (e.g., yolov4.weights)
-uploaded = files.upload()
-# Load YOLO
-net = cv2.dnn.readNet("yolov4.weights", "yolov4.cfg")
-layer_names = net.getLayerNames()
-output_layers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
-# Upload the image file
-image = cv2.imread("image.jpg")
-img = cv2.resize(image, None, fx=0.4, fy=0.4)
-height, width, channels = img.shape
-# Detecting objects
-blob = cv2.dnn.blobFromImage(img, 0.00392, (416, 416), (0, 0, 0), True, crop=False)
-net.setInput(blob)
-outs = net.forward(output_layers)
-# Information to display on the image
-class_ids = []
-confidences = []
-boxes = []
+!./darknet detector test cfg/coco.data cfg/yolov4.cfg yolov4.weights data/image7.jpg
 
-for out in outs:
-    for detection in out:
-        scores = detection[5:]
-        class_id = np.argmax(scores)
-        confidence = scores[class_id]
-        if confidence > 0.5:
-            # Object detected
-            center_x = int(detection[0] * width)
-            center_y = int(detection[1] * height)
-            w = int(detection[2] * width)
-            h = int(detection[3] * height)
-            # Rectangle coordinates
-            x = int(center_x - w / 2)
-            y = int(center_y - h / 2)
-            boxes.append([x, y, w, h])
-            confidences.append(float(confidence))
-            class_ids.append(class_id)
+import cv2
+import matplotlib.pyplot as plt
+%matplotlib inline
 
-# Non-maximum suppression to remove duplicates
-indexes = cv2.dnn.NMSBoxes(boxes, confidences, 0.5, 0.4)
+image = cv2.imread("Md.jpg")
+height, width = image.shape[:2]
+resized_image = cv2.resize(image,(3*width, 3*height), interpolation = cv2.INTER_CUBIC)
 
-# Draw bounding boxes and labels
-font = cv2.FONT_HERSHEY_PLAIN
-for i in range(len(boxes)):
-    if i in indexes:
-        x, y, w, h = boxes[i]
-        label = str(class_ids[i])
-        confidence = confidences[i]
-        color = (0, 255, 0)
-        cv2.rectangle(img, (x, y), (x + w, y + h), color, 2)
-        cv2.putText(img, label, (x, y + 30), font, 3, color, 3)
-
-# Display the result
-plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
-plt.axis('off')
+fig = plt.gcf()
+fig.set_size_inches(18, 10)
+plt.axis("off")
+plt.imshow(cv2.cvtColor(resized_image, cv2.COLOR_BGR2RGB))
 plt.show()
