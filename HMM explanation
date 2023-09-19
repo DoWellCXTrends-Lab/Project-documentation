@@ -1,1 +1,5 @@
 https://www.geeksforgeeks.org/hidden-markov-model-in-machine-learning/
+
+Step 1: Define the model parameters
+The state space is the set of all possible hidden states, and the observation space is the set of all possible observations.
+Here states are Snippets and Observation is keyword
