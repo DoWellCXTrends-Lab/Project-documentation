@@ -1,0 +1,10 @@
+In Ui part methods and alignment done.
+At first i cloned the git and checked the code in vs code.
+Organic - aligning of Thumbnail, ecom name and ecom id as exact as google search result was done using react and bootstrap.
+In shopimg Result - I have made a cointainer for each response and aligned price, ecom site name in the container.
+In Inline Product section - Aligning of ecom name, its price and made a container as same as  google search.
+In videos section - i have made the card and aligned the title and description as google search manner.
+In related search i have imported search icon and aligned as 4*4 row same as in google search.
+Each response was checked and the output for each respone was correct.
+I have connected with vaibhav for checking whether all the response was that he expected and made some  changes in background.
+Then i had pushed the code.
