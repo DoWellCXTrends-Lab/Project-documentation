@@ -1,0 +1,101 @@
+Using some Exmaple image tried to extract logo from the image and the code is imported.
+
+!git clone https://github.com/misbah4064/darknet.git
+%cd darknet/
+ #Run Make-File to create Darknet executable
+!make
+!./darknet detector test cfg/coco.data cfg/yolov4.cfg yolov4.weights data/image7.jpg
+
+import cv2
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+image = cv2.imread("Md.jpg")
+height, width = image.shape[:2]
+resized_image = cv2.resize(image,(3*width, 3*height), interpolation = cv2.INTER_CUBIC)
+
+fig = plt.gcf()
+fig.set_size_inches(18, 10)
+plt.axis("off")
+plt.imshow(cv2.cvtColor(resized_image, cv2.COLOR_BGR2RGB))
+plt.show()
+
+Updated code
+!git clone https://github.com/AlexeyAB/darknet
+Mount google drive and link folder
+#mount drive
+%cd ..
+from google.colab import drive
+drive.mount('/content/gdrive')
+# this creates a symbolic link so that now the path /content/gdrive/My\ Drive/ is equal to /mydrive
+!ln -s /content/gdrive/My\ Drive/ /mydrive
+# list contents in yolov4-tiny folder in your drive
+!ls /mydrive/yolov4-tiny
+
+# change makefile to have GPU and OPENCV enabled
+# also set CUDNN, CUDNN_HALF and LIBSO to 1
+%cd /content/darknet/
+!sed -i 's/OPENCV=0/OPENCV=1/' Makefile
+!sed -i 's/GPU=0/GPU=1/' Makefile
+!sed -i 's/CUDNN=0/CUDNN=1/' Makefile
+!sed -i 's/CUDNN_HALF=0/CUDNN_HALF=1/' Makefile
+!sed -i 's/LIBSO=0/LIBSO=1/' Makefile
+
+ Build darknet
+!make
+
+# Clean the data and cfg folders first except the labels folder in data which is required
+%cd data/
+!find -maxdepth 1 -type f -exec rm -rf {} \;
+%cd ..
+%rm -rf cfg/
+%mkdir cfg
+
+#copy the datasets zip file to the root darknet folder
+!cp /mydrive/yolov4-tiny/archive.zip ../
+# unzip the datasets and their contents so that they are now in /darknet/data/ folder
+!unzip ../archive.zip -d data/
+
+#copy the custom cfg file from the drive to the darknet/cfg folder
+!cp /mydrive/yolov4-tiny/yolov4-tiny-custom.cfg ./cfg
+
+# copy the obj.names and obj.data files so that they are now in /darknet/data/ folder
+!cp /mydrive/yolov4-tiny/obj.names ./data
+!cp /mydrive/yolov4-tiny/obj.data  ./data
+
+#copy the process.py file from the drive to the darknet directory
+!cp /mydrive/yolov4-tiny/process.py ./
+
+# run process.py ( this creates the train.txt and test.txt files in our darknet/data folder )
+!python process.py
+
+# list the contents of data folder to check if the train.txt and test.txt files have been created 
+!ls data/
+
+# verify whether train.txt file is written or not
+f = open('data/train.txt')
+f.readlines()
+
+# Download the yolov4-tiny pre-trained weights file
+!wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.conv.29
+
+import cv2
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+# define helper function imShow
+def imShow(path):
+  image = cv2.imread(path)
+  height, width = image.shape[:2]
+  resized_image = cv2.resize(image,(3*width, 3*height), interpolation = cv2.INTER_CUBIC)
+
+  fig = plt.gcf()
+  fig.set_size_inches(18, 10)
+  plt.axis("off")
+  plt.imshow(cv2.cvtColor(resized_image, cv2.COLOR_BGR2RGB))
+
+# run your custom detector with this command (upload an image to your google drive to test, the thresh flag sets the minimum accuracy required for object detection)
+
+!./darknet detector test data/obj.data cfg/yolov4-tiny-custom.cfg /mydrive/yolov4-tiny/training/yolov4-tiny-custom_best.weights /content/darknet/data/data/test/000000008.jpg -thresh 0.5
+imShow('predictions.jpg')
+

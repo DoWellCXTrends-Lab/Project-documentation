@@ -1,0 +1,11 @@
+Object detection like logo are detected from image using opencv.
+Yolov4 is one of the real-time object detection model that can recognize 80 different object classes.
+First went through the documentation of Yolov4 and step by step process started as Clone repository.
+Then installing darknet and connecting  Directory to Darknet.
+Run Make-File to create Darknet executable.
+Downloaded yolo4 Weights using https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights
+Run ./Darknet Detector and Display Images.
+!./darknet detector test cfg/coco.data cfg/yolov4.cfg yolov4.weights data/image7.jpg(At this point i faced issue with directory not found )
+Then changed the file position %cd darknet/ using change directory.
+As output i was able to get axies of the image.
+I have uploaded the code i have used in Object detection File.
