@@ -1,0 +1,4 @@
+design pattern of Django and how MVT is different from MVC.
+what is Django project directory structure (wsgi, urls, view, __init__, etc).
+How toconnect Reqiured database to the project (SQL/NoSQL).
+what is view in django, how to write single view multiple view.
